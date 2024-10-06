@@ -1,0 +1,81 @@
+/* Estilos generales para el body y el contenido */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+
+img {
+    
+        width: 100%; /* O cualquier otro porcentaje */
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        overflow: hidden;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ancho relativo al contenedor padre */
+    max-width: 400px; /* Ancho máximo del contenedor */
+    padding: 12px; /* Espacio interno alrededor del contenido */
+    margin: 20px auto; /* Espacio externo y centrado horizontalmente */
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+.form-header {
+    margin-bottom: 80px;
+}
+
+.form-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.form-header p {
+    margin: 10px 0;
+}
+
+.form-header a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+}
